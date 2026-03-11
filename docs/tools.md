@@ -209,7 +209,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
     ---
 
-    Mailbox Mail is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox Mail is based in Berlin, Germany. Accounts start with up to 2 GB storage, which can be upgraded as needed.
+    Mailbox Mail (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox Mail is based in Berlin, Germany. Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#mailbox-mail)
 
@@ -338,7 +338,6 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 - ![Brave Search logo](assets/img/search-engines/brave-search.svg){ .twemoji loading=lazy } [Brave Search](search-engines.md#brave-search)
 - ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ .twemoji loading=lazy } [DuckDuckGo](search-engines.md#duckduckgo)
-- ![Mullvad logo](assets/img/vpn/mullvad.svg){ .twemoji loading=lazy } [Mullvad Leta](search-engines.md#mullvad-leta)
 - ![SearXNG logo](assets/img/search-engines/searxng.svg){ .twemoji loading=lazy } [SearXNG](search-engines.md#searxng)
 - ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ .twemoji loading=lazy }![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ .twemoji loading=lazy } [Startpage](search-engines.md#startpage)
 
@@ -459,7 +458,6 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 - ![Redlib logo](assets/img/frontends/redlib.svg){ .twemoji loading=lazy } [Redlib (Reddit, Web)](frontends.md#redlib)
 - ![ProxiTok logo](assets/img/frontends/proxitok.svg){ .twemoji loading=lazy } [ProxiTok (TikTok, Web)](frontends.md#proxitok)
 - ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji loading=lazy } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
-- ![Yattee logo](assets/img/frontends/yattee.svg){ .twemoji loading=lazy } [Yattee (YouTube; iOS, tvOS, macOS)](frontends.md#yattee)
 - ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji loading=lazy }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji loading=lazy } [LibreTube (YouTube, Android)](frontends.md#libretube-android)
 - ![NewPipe logo](assets/img/frontends/newpipe.svg){ .twemoji loading=lazy } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
 - ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji loading=lazy }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji loading=lazy } [Invidious (YouTube, Web)](frontends.md#invidious)

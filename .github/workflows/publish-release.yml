@@ -64,7 +64,7 @@ jobs:
       continue-on-error: false
       cache: false
     secrets:
-      RO_DISCOURSE_API_KEY: ${{ secrets.RO_DISCOURSE_API_KEY }}
+      MEMBERS_API_URL: ${{ secrets.MEMBERS_API_URL }}
 
   build_blog:
     needs: submodule
@@ -85,8 +85,6 @@ jobs:
     with:
       repo: ${{ github.repository }}
       ref: ${{ github.ref }}
-    secrets:
-      RO_DISCOURSE_API_KEY: ${{ secrets.RO_DISCOURSE_API_KEY }}
 
   release:
     name: Create release notes

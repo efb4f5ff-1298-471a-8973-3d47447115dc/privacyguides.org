@@ -73,7 +73,7 @@ jobs:
       privileged: ${{ fromJSON(needs.metadata.outputs.privileged) }}
       strict: true
     secrets:
-      RO_DISCOURSE_API_KEY: ${{ secrets.RO_DISCOURSE_API_KEY }}
+      MEMBERS_API_URL: ${{ secrets.MEMBERS_API_URL }}
 
   build_i18n:
     if: ${{ contains(github.event.pull_request.labels.*.name, 'ci:build i18n') }}
@@ -90,6 +90,8 @@ jobs:
       continue-on-error: true
       privileged: ${{ fromJSON(needs.metadata.outputs.privileged) }}
       strict: true
+    secrets:
+      MEMBERS_API_URL: ${{ secrets.MEMBERS_API_URL }}
 
   build_blog:
     if: ${{ contains(github.event.pull_request.labels.*.name, 'ci:build blog') }}
@@ -108,8 +110,6 @@ jobs:
     with:
       ref: ${{github.event.pull_request.head.ref}}
       repo: ${{github.event.pull_request.head.repo.full_name}}
-    secrets:
-      RO_DISCOURSE_API_KEY: ${{ secrets.RO_DISCOURSE_API_KEY }}
 
   combine_build:
     needs: [build_english, build_i18n, build_blog]
